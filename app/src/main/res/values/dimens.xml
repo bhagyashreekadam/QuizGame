@@ -3,4 +3,18 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="buttonHeight">110dp</dimen>
+    <dimen name="textSize">30dp</dimen>
+    <dimen name="questionAnswerLayoutHeight">50dp</dimen>
+    <dimen name="normalTextSize">20dp</dimen>
+    <dimen name="scoreWidth">80dp</dimen>
+    <dimen name="Height">45dp</dimen>
+    <dimen name="scoreTextSize">35dp</dimen>
+    <dimen name="line">2dp</dimen>
+    <dimen name="winnerImageView">300dp</dimen>
+
+
+
+
+
 </resources>

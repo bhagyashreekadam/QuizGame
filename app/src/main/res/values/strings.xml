@@ -2,33 +2,12 @@
     <string name="app_name">AndroidGame</string>
     <string name="action_settings">Settings</string>
     <string name="exit">Exit</string>
+    <string name="buttonAText">Player A</string>
+    <string name="buttonBText">Player B</string>
 
-    <string-array name="questions">
-        <item>Tap if capital of India</item>
-        <item>Tap if an animal</item>
-        <item>Tap if right</item>
+    <!-- game over layout string-->
+   <string name="gameOver">GAME OVER!!!</string>
+    <string name="playAgain">Play Again</string>
 
-
-    </string-array>
-
-    <string-array name="answers">
-
-        <item>Delhi</item>
-        <item>Mumbai</item>
-        <item>Pune</item>
-        <item>aurangabad</item>
-
-        <item>fish</item>
-        <item>tea</item>
-        <item>yiger</item>
-        <item>pizza</item>
-
-        <item>sky is black</item>
-        <item>roses are green</item>
-        <item>trees are green</item>
-        <item>aurangabad is not a city</item>
-
-
-    </string-array>
 
 </resources>

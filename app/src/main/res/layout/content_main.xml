@@ -5,119 +5,113 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
-    android:background="#d6106c"
+    android:background="@color/darkPink"
     tools:showIn="@layout/activity_main">
 
 <LinearLayout
     android:layout_width="fill_parent"
-    android:id="@+id/relativeLayout"
+    android:id="@+id/gameLayout"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
     android:layout_height="match_parent">
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="110dp"
-        android:text="Player A"
+        android:layout_height="@dimen/buttonHeight"
+        android:text="@string/buttonAText"
         android:id="@+id/playerAButton"
         android:rotation="180"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:onClick="playerAClicked"
-        android:textSize="30dp"
-        android:background="#d6eb1a"/>
+        android:textSize="@dimen/textSize"
+        android:background="@color/yellow"/>
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="45dp"
-        android:text="player A answers"
+        android:layout_height="@dimen/questionAnswerLayoutHeight"
         android:id="@+id/playerAANswers"
         android:rotation="180"
         android:layout_below="@+id/playerAButton"
         android:layout_centerHorizontal="true"
         android:gravity="center_vertical|center_horizontal"
-        android:textSize="20dp"
-        android:textColor="#111111"
-        android:background="#19e1f7" />
+        android:textSize="@dimen/normalTextSize"
+        android:textColor="@color/black"
+        android:background="@color/aqua" />
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:text="Player A text"
+        android:layout_height="@dimen/questionAnswerLayoutHeight"
         android:id="@+id/playerATextView"
         android:rotation="180"
         android:gravity="center_vertical|center_horizontal"
         android:layout_below="@+id/playerAButton"
         android:layout_alignParentStart="true"
-
-        android:textColor="#111111"
-        android:textSize="20dp" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalTextSize" />
 
     <TextView
-        android:layout_width="80dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/scoreWidth"
+        android:layout_height="@dimen/Height"
         android:id="@+id/playerAScore"
         android:rotation="180"
         android:gravity="center_horizontal|center_vertical"
-        android:textSize="35dp"
-        android:textColor="#111111"
+        android:textSize="@dimen/scoreTextSize"
+        android:textColor="@color/black"
         android:layout_gravity="center_horizontal" />
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="2dp"
+        android:layout_height="@dimen/line"
         android:layout_below="@+id/playerATextView"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:background="#c0c0c0"/>
+        android:background="@color/lineColor"/>
 
 
     <TextView
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:text=""
+        android:layout_width="@dimen/scoreWidth"
+        android:layout_height="@dimen/Height"
         android:gravity="center_horizontal|center_vertical"
         android:id="@+id/playerBScore"
-        android:textColor="#111111"
-        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/scoreTextSize"
         android:layout_gravity="center_horizontal"/>
 
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:text="Player B text"
+        android:layout_height="@dimen/questionAnswerLayoutHeight"
         android:id="@+id/playerBTextView"
         android:gravity="center_vertical|center_horizontal"
         android:layout_below="@+id/playerATextView"
         android:layout_marginTop="10dp"
         android:layout_alignParentStart="true"
-        android:textColor="#111111"
-        android:textSize="20dp" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalTextSize" />
 
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="45dp"
-        android:text="player B answers"
+        android:layout_height="@dimen/questionAnswerLayoutHeight"
         android:id="@+id/playerBAnswers"
         android:layout_below="@+id/playerBTextView"
         android:layout_centerHorizontal="true"
         android:gravity="center_vertical|center_horizontal"
-        android:textColor="#111111"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalTextSize"
         android:background="#19e1f7" />
 
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="110dp"
-        android:text="Player B"
+        android:layout_height="@dimen/buttonHeight"
+        android:text="@string/buttonBText"
         android:id="@+id/playerBButton"
         android:layout_below="@+id/playerBAnswers"
         android:layout_centerHorizontal="true"
         android:onClick="playerBClicked"
-        android:textSize="30dp"
-        android:background="#d6eb1a"/>
+        android:textSize="@dimen/textSize"
+        android:background="@color/yellow"/>
 
 
 
@@ -127,46 +121,53 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
        android:layout_centerHorizontal="true"
-        android:background="#7c7474"
+        android:background="@color/darkPink"
         android:orientation="vertical"
-        android:id="@+id/layout"
+        android:id="@+id/gameOverlayout"
         android:visibility="invisible">
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="40dp"
-            android:text="GAME OVER!!!"
-            android:textColor="#111111"
+            android:text="@string/gameOver"
+            android:textColor="@color/black"
             android:id="@+id/textGameOver"
-            android:layout_marginTop="30dp"
-            android:background="#d31353"
-            android:textSize="30dp"
-            android:gravity="center_vertical|center_horizontal" />
+            android:background="@color/darkPink"
+            android:textSize="@dimen/textSize"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="45dp"
-            android:text=""
-            android:background="#d31353"
+            android:layout_height="@dimen/Height"
+            android:background="@color/darkPink"
             android:id="@+id/result"
-            android:textColor="#111111"
-            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalTextSize"
             android:layout_below="@+id/textGameOver"
             android:layout_alignParentStart="true"
             android:gravity="center_vertical|center_horizontal" />
         <Button
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="Play AGain"
+            android:text="@string/playAgain"
             android:id="@+id/playAgain"
             android:onClick="playAgain"
-            android:textSize="30dp"
-            android:background="#a31ca1"
-            android:textColor="#111111"
+            android:textSize="@dimen/textSize"
+            android:background="@color/purple"
+            android:textColor="@color/black"
             android:gravity="center_vertical|center_horizontal"
-            android:layout_centerVertical="true"
+            android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/winnerImageView"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/result"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/winner" />
 
     </RelativeLayout>
 

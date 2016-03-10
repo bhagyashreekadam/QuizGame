@@ -8,4 +8,12 @@
     <color name="pink">#d816a1</color>
     <color name="red">#FFED0D36</color>
     <color name="yellow">#d6eb1a</color>
+    <color name="black">#111111</color>
+    <color name="aqua">#19e1f7</color>
+    <color name="darkPink">#d6106c</color>
+    <color name="lineColor">#c0c0c0</color>
+    <color name="purple">#a31ca1</color>
+    <color name="grey">#808080</color>
+
+
 </resources>
