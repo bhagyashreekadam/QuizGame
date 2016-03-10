@@ -12,7 +12,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="Quiz Game"
+            android:label="Two Player Quiz Game"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
