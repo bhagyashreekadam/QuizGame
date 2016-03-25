@@ -3,4 +3,53 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- button height for all layouts-->
+    <dimen name="buttonHeight">120dp</dimen>
+    <dimen name="buttonHeight_ldpi">80dp</dimen>
+    <dimen name="buttonHeight_mdpi">70dp</dimen>
+    <dimen name="buttonHeight_hdpi">90dp</dimen>
+    <dimen name="buttonHeight_xhdpi">100dp</dimen>
+    <dimen name="buttonHeight_xxhdpi">100dp</dimen>
+    <dimen name="buttonHeight_xxxhdpi">180dp</dimen>
+
+    <!-- text size for all layouts-->
+    <dimen name="textSize">30dp</dimen>
+    <dimen name="normalTextSize">20dp</dimen>
+    <dimen name="textSize_mdpi">25dp</dimen>
+    <dimen name="normalTextSize_mdpi">15dp</dimen>
+
+    <dimen name="textSize_ldpi">28dp</dimen>
+    <dimen name="normalTextSize_ldpi">18dp</dimen>
+
+    <!-- question answer text view size for all layouts-->
+    <dimen name="questionAnswerLayoutHeight">50dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_ldpi">40dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_mdpi">25dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_hdpi">40dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_xhdpi">50dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_xxhdpi">60dp</dimen>
+    <dimen name="questionAnswerLayoutHeight_xxxhdpi">100dp</dimen>
+
+
+    <!-- score text view size for all layouts-->
+    <dimen name="scoreWidth">80dp</dimen>
+    <dimen name="scoreHeight">45dp</dimen>
+    <dimen name="scoreTextSize">30dp</dimen>
+    <dimen name="scoreTextSize_ldpi">32dp</dimen>
+
+    <dimen name="line">2dp</dimen>
+
+    <dimen name="winnerImageView">250dp</dimen>
+    <dimen name="winnerImageView_mdpi">200dp</dimen>
+    <dimen name="winnerImageView_hdpi">200dp</dimen>
+
+    <dimen name="playAgainButtonWidth">200dp</dimen>
+    <dimen name="startButtonWidth">200dp</dimen>
+
+
+
+
+
 </resources>
