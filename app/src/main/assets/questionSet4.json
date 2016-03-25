@@ -1,0 +1,113 @@
+{
+
+
+  "questionSet4" :[
+    //capitals
+    {
+      "question":"Capital of Pakistan",
+      "answer":"Karachi",//Islamabad
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of Norway",
+      "answer":"Oslo",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of Cuba",
+      "answer":"Havana",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of Russia",
+      "answer":"Moscow",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of Sweden",
+      "answer":"Gothenburg",//Stockholm
+      "trueOrFalse":"false"
+    },
+
+    //sports
+    {
+      "question":"Which country had started Football World?",
+      "answer":"Brazil",//Uruguay
+      "trueOrFalse":"false"
+    },
+    {
+      "question":" In which year Asian Games were started?",
+      "answer":"1951",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"First Olympic Games was held in ____",
+      "answer":"Australia",//Canada
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Caddie is related to ______",
+      "answer":"Golf",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Bandy is national sport of which country?",
+      "answer":"Russia",
+      "trueOrFalse":"true"
+    },
+
+    //politics
+    {
+      "question":"Maximum number of seats in the Rajya Sabha is in",
+      "answer":"West Bengal",//Uttar Pradesh
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"The retiring age of Supreme Court judges",
+      "answer":"63",//65
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"The Prime Minister is the",
+      "answer":"Head of the Government",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"The first citizen of India is the",
+      "answer":"President",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"The monthly salary of the Vice President of Indi",
+      "answer":"1,00,000",//1,25,000
+      "trueOrFalse":"false"
+    },
+
+    //basic gk
+    {
+      "question":"Which gas is used for the preparation of Soda water",
+      "answer":"Carbon Dioxide",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"The most important river of Orissa is",
+      "answer":"Bramaputra",
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"The language spoken by the people by Pakistan is",
+      "answer":"Sindhi",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"The World's Largest desert is",
+      "answer":"Kalahari",
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"The metal whose salts are sensitive to light is",
+      "answer":"Copper",
+      "trueOrFalse":"false"
+    }
+  ]
+}

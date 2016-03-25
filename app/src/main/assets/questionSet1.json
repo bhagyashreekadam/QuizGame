@@ -1,0 +1,113 @@
+{
+  "questionSet1": [
+
+    //capitals
+    {
+      "question": "Capital of India",
+      "answer": "Delhi",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Capital of Switzerland",
+      "answer": "Bern",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Capital of Brazil",
+      "answer": "Brasilia",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Capital of Poland",
+      "answer": "Radom",//warsaw
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "Capital of Russia",
+      "answer": "Samara",
+      "trueOrFalse": "false"
+    },
+
+    //sports
+    {
+      "question": "Which country did Ravi Shastri play for?",
+      "answer": "Glamorgan",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The first Indian to win the World Amateur Billiards title is",
+      "answer": "Manoj Kothari",//Wilson Jones
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "The first Indian woman to win an Asian Games gold in 400m run is",
+      "answer": "Kamaljit Sandhu",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Two counties did Kapil Dev play are",
+      "answer": "Northamptonshire & Worcestershire",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Amateur Athletics Federation of India established at",
+      "answer": "1936",//1946
+      "trueOrFalse": "false"
+    },
+
+    //politics
+    {
+      "question": "The members of the Rajya Sabha are elected by",
+      "answer": "the people",//Elected members of the legislative assembly
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "The power to decide an election petition is vested in the",
+      "answer": "High courts",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The members of Lok Sabha hold office for a term of",
+      "answer": "5 years",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The minimum age to qualify for election to the Lok Sabha is",
+      "answer": "21 years",//25 years
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "The minimum age of the voter in India is",
+      "answer": "18 years",
+      "trueOrFalse": "true"
+    },
+
+//basic gk
+    {
+      "question": "Second World war began in",
+      "answer": "1938",
+      "trueOrFalse": "true"
+    },
+    {
+      "question":"The currency notes are printed in",
+      "answer":"Nasik",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"The largest ocean in the world is",
+      "answer":"The pacific Ocean",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Which is the Land of the Rising Sun",
+      "answer":"London",//japan
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"The value of Gold is determined in",
+      "answer":"Japan",//London
+      "trueOrFalse":"false"
+    }
+
+  ]
+}

@@ -4,10 +4,43 @@
     <string name="exit">Exit</string>
     <string name="buttonAText">Player A</string>
     <string name="buttonBText">Player B</string>
+    <string name="packageName">com.example.synerzip.androidgame</string>
+    <string name="playerA">PLAYER A</string>
+    <string name="playerB">PLAYER B</string>
+    <string name="draw">IT\'S A DRAW</string>
+    <string name="won">WON</string>
+    <string name="timedOut">Ooops Timed out</string>
+    <string name="score">\'S SCORE :   </string>
+
+
+    <string name="exitTitle">Are you sure?</string>
+    <string name="exitMessage">Do you want to Exit?</string>
+    <string name="errorTitle">Try Again</string>
+    <string name="errorMessage">Player already exist try with other name</string>
+    <string name="playerANameLine">Enter Player 1 Name</string>
+    <string name="playerBNameLine">Enter Player 2 Name</string>
+
+
 
     <!-- game over layout string-->
    <string name="gameOver">GAME OVER!!!</string>
     <string name="playAgain">Play Again</string>
+    <string name="title_activity_game_over">Game Over</string>
+    <string name="title_activity_start_screen">Two Player Quiz</string>
+    <string name="startButtonText">Start Game</string>
+    <string name="gameInstructions">Instructions</string>
+    <string name="playerAScore">Player A Score</string>
+    <string name="playerBScore">Player B Score</string>
+
+
+
+    <string name="gameRules">
+        Tap your button if the answer is right\n\n
+        ALL THE BEST...!
+    </string>
+
+
+
 
 
 </resources>

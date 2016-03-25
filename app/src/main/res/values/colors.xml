@@ -3,17 +3,24 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="green">#FF52B369</color>
+    <color name="green">#FF398341</color>
+    <color name="midGreen">#FF80CE78</color>
     <color name="blue">#2481d8</color>
     <color name="pink">#d816a1</color>
     <color name="red">#FFED0D36</color>
+    <color name="midRed">#FFF67979</color>
     <color name="yellow">#d6eb1a</color>
+    <color name="midYellow">#FFF7FA97</color>
     <color name="black">#111111</color>
     <color name="aqua">#19e1f7</color>
     <color name="darkPink">#d6106c</color>
     <color name="lineColor">#c0c0c0</color>
     <color name="purple">#a31ca1</color>
-    <color name="grey">#808080</color>
+    <color name="midPurple">#FFE790F4</color>
+    <color name="grey">#dad5d5</color>
+    <color name="white">#ffffff</color>
+    <color name="gameTitleColor">#FF2333BF</color>
+
 
 
 </resources>

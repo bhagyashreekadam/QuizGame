@@ -1,0 +1,73 @@
+{
+         "questionSet1" :[
+         {
+            "question":"Capital of India",
+            "answer":"Delhi",
+            "trueOrFalse":"true"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         }
+         ],
+
+       "questionSet2" :[
+         {
+             "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         }
+         ],
+  
+          "questionSet3" :[
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+             "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         }
+         ],
+ 
+          "questionSet4" :[
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+            "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         },
+         {
+             "question":"01",
+            "answer":"Gopal Varma",
+            "trueOrFalse":"500000"
+         }
+         ]
+}

@@ -1,0 +1,112 @@
+{
+  "questionSet3": [
+
+    //capitals
+    {
+      "question":"Capital of Greece",
+      "answer":"Patras",//Athens
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of Japan",
+      "answer":"Tokyo",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of Australia",
+      "answer":"Sydney",//Canberra
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of Austria",
+      "answer":"Graz",//Vienna
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of Bhutan",
+      "answer":"Thimphu",
+      "trueOrFalse":"true"
+    },
+
+    //sports
+    {
+      "question":"Which was the host country in 1998 for Asian Games?",
+      "answer":"Thailand",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Which city has hosted Asian Games in 2006?",
+      "answer":"New Delhi",//Doha
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"In which country commonwealth games were held in 2010?",
+      "answer":"India",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"____ has won Cricket world cup for the maximum number of times.",
+      "answer":"India",//australia
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Which city hosted commonwealth games in 1966?",
+      "answer":"Kingston",
+      "trueOrFalse":"true"
+    },
+
+    //politics
+    {
+      "question":"Who is the constitution head of India?",
+      "answer":"President",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Number of schedules in Indian constitution",
+      "answer":"12",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Who hosts the flag on Independence Day at Delhi Fort?",
+      "answer":"President",//Prime Minister
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Who was the first chairman of the planning commission?",
+      "answer":"Narayanan",//Jawaharlal Nehru
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Who was India’s first President?",
+      "answer":"Rajendra Prasad",
+      "trueOrFalse":"true"
+    },
+
+    //basic gk
+    {
+      "question": "Satellite launching station is located at",
+      "answer": "Sriharikota",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The planet nearest to the Sun is",
+      "answer": "Saturn",
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "Which is considered as the biggest port of India?",
+      "answer": "Mumbai",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The gas used for making vegetables is",
+      "answer": "Hydrogen",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "The largest fresh water lake in India is",
+      "answer": "Chilka Lake",
+      "trueOrFalse": "false"
+    }
+  ]
+}

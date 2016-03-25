@@ -1,0 +1,113 @@
+{
+  "questionSet2": [
+
+    //capitals
+    {
+      "question":"Capital of Afghanistan",
+      "answer":"Herat",//kabul
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of United Kingdom",
+      "answer":"London",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of Italy",
+      "answer":"Rome",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Capital of United States of America",
+      "answer":"New York",//washington
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Capital of Bangladesh",
+      "answer":"Dhaka",
+      "trueOrFalse":"true"
+    },
+
+
+//sports
+    {
+      "question":"Which is the national sport of Canada?",
+      "answer":"Lacrosse/Ice hockey",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"Archery is the national sport of which country?",
+      "answer":"India",//Bhutan
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"______ has Cricket as its national sports",
+      "answer":"Jamaica",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"_______ is the national sport of Turkey",
+      "answer":"Wrestling",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"When was the Commonwealth game started?",
+      "answer":"1950",//1930
+      "trueOrFalse":"false"
+    },
+
+   //politics
+    {
+      "question":"______ is the highest law officer of a state.",
+      "answer":"Governor",//Attorney General
+      "trueOrFalse":"false"
+    },
+    {
+      "question":" Who was the first vice president of India?",
+      "answer":"Dr. S. Radhakrishnan",
+      "trueOrFalse":"true"
+    },
+    {
+      "question":"When was Indian Planning Commission constituted?",
+      "answer":"1949",//1950
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"Who has launched Aam Aadmi Party recently?",
+      "answer":"Anna Hazare",//Arvind Kejriwal
+      "trueOrFalse":"false"
+    },
+    {
+      "question":"After how many years are Lok Sabha elections conducted?",
+      "answer":"Every 5 years",
+      "trueOrFalse":"true"
+    },
+
+    //basic gk
+    {
+      "question": "The spherical shape of a drop is due to",
+      "answer": "gravity",
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "Earth is protected from Ultra voilet radiation by",
+      "answer": "Ozone",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "Solid carbon dioxide is known as",
+      "answer": "Dry ice",
+      "trueOrFalse": "true"
+    },
+    {
+      "question": "VAT was first introduced in which country?",
+      "answer": "Cuba",
+      "trueOrFalse": "false"
+    },
+    {
+      "question": "______ is used to measure blood pressure",
+      "answer": "Sphygmomano meter",
+      "trueOrFalse": "true"
+    }
+  ]
+}
