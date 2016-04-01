@@ -109,6 +109,22 @@ public class startScreen extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(startScreen.this)
+                .setTitle(getString(R.string.exitTitle))
+                .setMessage(getString(R.string.exitMessage))
+                .setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finishAffinity();
+                        System.exit(1);
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long

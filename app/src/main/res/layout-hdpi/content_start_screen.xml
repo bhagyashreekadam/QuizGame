@@ -19,7 +19,7 @@
             android:id="@+id/startButton"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="@dimen/startButtonMBottom"
             android:background="@drawable/startbutton"
             android:onClick="startGame"
             android:textStyle="bold|italic"
@@ -43,10 +43,9 @@
             android:id="@+id/textView"
             android:textSize="@dimen/normalTextSize"
             android:textColor="@color/white"
-            android:paddingLeft="5dp"
+            android:paddingLeft="@dimen/paddingLeft"
             android:textAlignment="center"
             android:gravity="center_vertical|center_horizontal"
-
             android:layout_below="@+id/gameTitleText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />

@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         questionNumber = 0;
         playerAScore = 0;
         playerBScore = 0;
-        sharedPreferences = this.getSharedPreferences("com.example.synerzip.androidgame", Context.MODE_PRIVATE);
         playerAText = (TextView) findViewById(R.id.playerATextView);
         playerBText = (TextView) findViewById(R.id.playerBTextView);
         playerATextAnswer = (TextView) findViewById(R.id.playerAANswers);
@@ -79,19 +78,23 @@ public class MainActivity extends AppCompatActivity {
         int questionSet = sharedPreferences.getInt("questionSet", 0);
         Random random = new Random();
         randomQuestionset = random.nextInt(4) + 1;
-
-        if (randomQuestionset == questionSet && randomQuestionset < 4) {
-            randomQuestionset++;
-
-        } else if (randomQuestionset == questionSet && randomQuestionset == 4) {
-            randomQuestionset--;
+        switch (questionSet)
+        {
+            case 1:randomQuestionset=2;
+                 break;
+            case 2:randomQuestionset=3;
+                break;
+            case 3:randomQuestionset=4;
+                break;
+            case 4:randomQuestionset=1;
+                break;
         }
+        sharedPreferences.edit().putInt("questionSet", randomQuestionset).apply();
         try {
             jsonRootObject = new JSONObject(loadJSONFromAsset("questionSet"+randomQuestionset+".json"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        sharedPreferences.edit().putInt("questionSet", randomQuestionset).apply();
         questionGenerator();
     }
 

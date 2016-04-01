@@ -47,7 +47,7 @@
             android:visibility="visible"
             android:layout_below="@+id/result"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="93dp" />
+            android:layout_marginTop="@dimen/imageviewMarginTop_xxxhdpi" />
 
         <Button
             android:layout_width="200dp"
@@ -61,7 +61,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="129dp" />
+            android:layout_marginBottom="@dimen/playAgainButtonMarginTop_xxxhdpi" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -86,7 +86,6 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textAlignment="center" />
-
 
     </RelativeLayout>
 

@@ -5,6 +5,6 @@
         android:centerColor="@color/purple"
         android:endColor="@color/midPurple"
         android:angle="270" />
-    <corners android:radius="50dp" />
-    <stroke android:width="4px" android:color="@color/grey" />
+    <corners android:radius="@dimen/startButtonRadius" />
+    <stroke android:width="@dimen/startButtonWidthShape" android:color="@color/grey" />
 </shape>

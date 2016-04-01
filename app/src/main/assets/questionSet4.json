@@ -19,8 +19,8 @@
       "trueOrFalse":"true"
     },
     {
-      "question":"Capital of Russia",
-      "answer":"Moscow",
+      "question":"Capital of Netherland",
+      "answer":"Amsterdam",
       "trueOrFalse":"true"
     },
     {
@@ -78,7 +78,7 @@
       "trueOrFalse":"true"
     },
     {
-      "question":"The monthly salary of the Vice President of Indi",
+      "question":"The monthly salary of the Vice President of India",
       "answer":"1,00,000",//1,25,000
       "trueOrFalse":"false"
     },

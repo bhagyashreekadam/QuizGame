@@ -17,7 +17,7 @@
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:text="@string/gameOver"
             android:textColor="@color/white"
             android:id="@+id/textGameOver"
@@ -36,7 +36,7 @@
             android:layout_below="@+id/plyerBscoreText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="40dp" />
+            android:layout_marginTop="@dimen/resultTextViewMarginTop" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="45dp" />
+            android:layout_marginTop="@dimen/playAgainButtonMarginTop_xxhdpi" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -84,7 +84,7 @@
             android:layout_alignTop="@+id/plyerAscoreText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="@dimen/playerBTextMarginTop_xxhdpi" />
 
     </RelativeLayout>
 

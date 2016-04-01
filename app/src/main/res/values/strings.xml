@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">AndroidGame</string>
+    <string name="app_name"> Two Player Quiz Game</string>
+    <string name="app_Title">Quiz Game</string>
     <string name="action_settings">Settings</string>
     <string name="exit">Exit</string>
     <string name="buttonAText">Player A</string>
@@ -8,9 +9,9 @@
     <string name="playerA">PLAYER A</string>
     <string name="playerB">PLAYER B</string>
     <string name="draw">IT\'S A DRAW</string>
-    <string name="won">WON</string>
+    <string name="won">&#160;WON</string>
     <string name="timedOut">Ooops Timed out</string>
-    <string name="score">\'S SCORE :   </string>
+    <string name="score">\'S SCORE&#160;:&#160;</string>
 
 
     <string name="exitTitle">Are you sure?</string>

@@ -60,7 +60,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="41dp" />
+            android:layout_marginTop="@dimen/playAgainButtonMarginTop" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -73,7 +73,7 @@
             android:layout_below="@+id/textGameOver"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="26dp" />
+            android:layout_marginTop="@dimen/playerATextMarginTop" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -86,7 +86,7 @@
             android:layout_alignTop="@+id/plyerAscoreText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="39dp" />
+            android:layout_marginTop="@dimen/playerBTextMarginTop" />
 
 
 

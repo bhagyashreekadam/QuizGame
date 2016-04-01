@@ -3,8 +3,37 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="playAgainButtonMarginTop">41dp</dimen>
+    <dimen name="playerATextMarginTop">26dp</dimen>
+    <dimen name="playerBTextMarginTop">39dp</dimen>
+    <dimen name="playAgainButtonMarginBottom_hdpi">23dp</dimen>
+    <dimen name="playAgainButtonMarginBottom_ldpi">56dp</dimen>
+    <dimen name="imageviewMarginTop_xhdpi">38dp</dimen>
+    <dimen name="playAgainButtonMarginTop_xhdpi">96dp</dimen>
+    <dimen name="playerBTextMarginTop_xhdpi">33dp</dimen>
+    <dimen name="resultTextViewMarginTop">40dp</dimen>
+    <dimen name="playAgainButtonMarginTop_xxhdpi">45dp</dimen>
+    <dimen name="playerBTextMarginTop_xxhdpi">30dp</dimen>
+    <dimen name="imageviewMarginTop_xxxhdpi">93dp</dimen>
+    <dimen name="playAgainButtonMarginTop_xxxhdpi">129dp</dimen>
 
-
+    <dimen name="playerAAnsMTop">20dp</dimen>
+    <dimen name="playerBAnsMBottom">16dp</dimen>
+    <dimen name="playerBAnsMTop_xxxhdpi">50dp</dimen>
+    <dimen name="startButtonMTop">74dp</dimen>
+    <dimen name="paddingLeft">5dp</dimen>39dp
+    <dimen name="gameRulesMT">39dp</dimen>
+    <dimen name="startButtonMBottom">30dp</dimen>
+    <dimen name="startButtonMBottom_ldpi">57dp</dimen>
+    <dimen name="rulesMTop">16dp</dimen>
+    <dimen name="rulesMTop_mdpi">56dp</dimen>
+    <dimen name="startButtonMBottom_mdpi">83dp</dimen>
+    <dimen name="rulesMTop_xhdpi">38dp</dimen>
+    <dimen name="startButtonMBottom_xhdpi">48dp</dimen>
+    <dimen name="startButtonMBottom_xxhdpi">51dp</dimen>
+    <dimen name="rulesMTop_xxhdpi">44dp</dimen>
+    <dimen name="rulesMTop_xxxhdpi">43dp</dimen>
+    <dimen name="startButtonMBottom_xxxhdpi">60dp</dimen>
     <!-- button height for all layouts-->
     <dimen name="buttonHeight">120dp</dimen>
     <dimen name="buttonHeight_ldpi">80dp</dimen>
@@ -47,6 +76,12 @@
 
     <dimen name="playAgainButtonWidth">200dp</dimen>
     <dimen name="startButtonWidth">200dp</dimen>
+
+    <dimen name="buttonRadius">8dp</dimen>
+    <dimen name="buttonWidth">3px</dimen>
+    <dimen name="startButtonRadius">50dp</dimen>
+    <dimen name="startButtonWidthShape">4px</dimen>
+    <dimen name="marginBetween">5dp</dimen>
 
 
 

@@ -16,7 +16,6 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="@dimen/buttonHeight_hdpi"
-            android:text="@string/buttonAText"
             android:id="@+id/playerAButton"
             android:rotation="180"
             android:onClick="playerAClicked"
@@ -30,7 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/playerAButton"
-            android:layout_marginTop="0dp"
             android:id="@+id/player1Layout"
             android:layout_above="@+id/view"
             android:background="@drawable/questionanswerback">
@@ -40,8 +38,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/playerAANswers"
-                android:text="ansA"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/playerAAnsMTop"
                 android:rotation="180"
                 android:gravity="center_vertical|center_horizontal"
                 android:textSize="@dimen/normalTextSize_mdpi"
@@ -55,7 +52,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/playerATextView"
                 android:rotation="180"
-                android:text="ques A"
                 android:gravity="center_vertical|center_horizontal"
                 android:textColor="@color/white"
                 android:textSize="@dimen/normalTextSize"
@@ -67,7 +63,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/playerAScore"
                 android:rotation="180"
-                android:text="0"
                 android:gravity="center_horizontal|center_vertical"
                 android:textSize="@dimen/scoreTextSize"
                 android:textColor="@color/white"
@@ -87,10 +82,11 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="@dimen/marginBetween"
             android:background="@drawable/questionanswerback"
             android:layout_above="@+id/playerBButton"
             android:layout_below="@+id/player1Layout">
@@ -101,7 +97,6 @@
                 android:id="@+id/playerBScore"
                 android:textColor="@color/white"
                 android:textSize="@dimen/scoreTextSize"
-                android:text="0"
                 android:layout_gravity="center_horizontal"
                 android:layout_centerHorizontal="true" />
 
@@ -109,7 +104,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/playerBTextView"
-                android:text="queB"
                 android:gravity="center_vertical|center_horizontal"
                 android:textColor="@color/white"
                 android:textSize="@dimen/normalTextSize"
@@ -124,12 +118,11 @@
                 android:gravity="center_vertical|center_horizontal"
                 android:textColor="@color/white"
                 android:textSize="@dimen/normalTextSize_mdpi"
-                android:text="ansB"
                 android:layout_gravity="bottom"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="@dimen/playerBAnsMBottom" />
 
 
         </RelativeLayout>
@@ -138,15 +131,13 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="@dimen/buttonHeight_hdpi"
-            android:text="@string/buttonBText"
             android:id="@+id/playerBButton"
             android:onClick="playerBClicked"
             android:textSize="@dimen/textSize"
             android:background="@drawable/shape"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="0dp" />
+            android:layout_alignParentStart="true"/>
 
     </RelativeLayout>
 

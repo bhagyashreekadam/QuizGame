@@ -24,7 +24,7 @@
     },
     {
       "question": "Capital of Russia",
-      "answer": "Samara",
+      "answer": "Samara",//moscow
       "trueOrFalse": "false"
     },
 
